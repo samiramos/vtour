@@ -1,0 +1,57 @@
+@-ms-viewport { width:device-width; }
+		@media only screen and (min-device-width:800px) { html { overflow:hidden; } 
+
+}
+
+
+@media screen and (max-width: 799px) {
+   #divIphone
+{
+	display: block !important;
+}
+
+}
+
+@media screen and (min-width: 800px) {
+   #divDesktop
+{
+	display: block;
+}
+
+}
+
+				html { height:100%; }
+		body { height:100%; overflow:hidden; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; background-color:#000000; }
+
+.fb-like{
+    height: 65px;
+    overflow: hidden !important;
+	float: right;	
+}
+
+.fb-share-button{
+	height: 30px;
+	float: right;
+	padding-top:1px;
+}
+
+@-webkit-keyframes aparecer {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+@-webkit-keyframes desaparecer {
+    0% {opacity:1;}
+    100% {opacity:0;}
+}
+
+
+#siteloader {
+	position: absolute;
+	z-index: 1;
+	height: 100%x;
+	-webkit-animation-name: desaparecer;
+	    -webkit-animation-delay: 5s;
+    -webkit-animation-duration: 1s;
+	overflow:hidden;
+}
